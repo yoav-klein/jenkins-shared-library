@@ -1,5 +1,5 @@
 
-def branchList = ["a", "b", "c"]
+String branchList = ["a", "b", "c"]
 
 def deploymentClone(repoName, branch) {
     println "This the deploymentClone"
