@@ -10,4 +10,8 @@ def flow() {
     println "This is the flow function"
     println "This is the branch list: $branchList"
     this.deploymentClone("sws-service", "main")
+    
+    println "Read resource"
+    def data = libraryResource 'com/yoav/jenkins/envVars.json'
+    println data
 }
