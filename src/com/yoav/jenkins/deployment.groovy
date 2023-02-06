@@ -12,4 +12,5 @@ def flow() {
     println "Read resource"
     def data = libraryResource 'com/yoav/jenkins/envVars.json'
     println data
+    println isThisAvailableInLibrary
 }
